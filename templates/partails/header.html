@@ -1,74 +1,188 @@
 {% load static %}
-<!-- Start Header Area -->
-<header class="header-area">
-    <!-- Start Top Header Area -->
-    <div class="top-header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="header-left-content">
+<!-- Start Preloader Area -->
+<div class="preloader">
+    <div class="lds-ripple">
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!-- End Preloader Area -->
+
+<!-- Start Prevoz Navbar Area -->
+<div class="prevoz-nav-style prevoz-nav-style-four fixed-top">
+    <div class="navbar-area">
+        <!-- Menu For Mobile Device -->
+        <div class="mobile-nav">
+            <a href="index.html" class="logo">
+                <img src="{% static 'img/logo/logo-four.png'%}" alt="Logo">
+            </a>
+        </div>
+        <!-- Menu For Desktop Device -->
+        <div class="main-nav">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="{% static 'img/logo/logo-four.png'%}" alt="Logo">
+                    </a>
+                    <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link dropdown-toggle active">
+											صفحه اصلی
+												<!-- <i class='bx bx-chevron-up'></i> -->
+											</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link dropdown-toggle">
+												خدمات
+												<!-- <i class='bx bx-chevron-up'></i> -->
+											</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="services.html" class="nav-link">خدمات</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="road-transport.html" class="nav-link">حمل و نقل جاده ای</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="air-transport.html" class="nav-link">حمل و نقل هوایی</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="service-details.html" class="nav-link">جزئیات خدمات</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link dropdown-toggle">
+												اخبار
+												<!-- <i class='bx bx-chevron-up'></i> -->
+											</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="news-grid.html" class="nav-link">اخبار شبکه ای</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="news-full-width.html" class="nav-link">اخبار تمام عرض</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="news-left-sidebar.html" class="nav-link">اخبار سایدبار</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="news-right-sidebar.html" class="nav-link">اخبار سایدبار 2</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="news-details.html" class="nav-link">جزئیات اخبار</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link">تماس با ما</a>
+                            </li>
+                        </ul>
+                        <!-- Start Other Option -->
+                        <div class="slider-btn">
+                            <a class="default-btn active" href="log-in.html">
+											ورود
+										</a>
+                            <a class="default-btn white" href="sign-up.html">
+											ثبت نام
+										</a>
+                        </div>
+
+                    </div>
+                    <!-- End Other Option -->
+                </div>
+        </div>
+        </nav>
+    </div>
+</div>
+</div>
+<!-- End Prevoz Navbar Area -->
+
+<!-- Start Sidebar Modal -->
+<div class="sidebar-modal">
+    <div class="modal right fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">
+									<i class="bx bx-x"></i>
+								</span>
+							</button>
+                    <h2 class="modal-title" id="myModalLabel2">
                         <a href="index.html">
                             <img src="{% static 'img/logo/logo-one.png'%}" alt="Logo">
                         </a>
-                    </div>
+                    </h2>
                 </div>
-                <div class="col-lg-9">
-                    <div class="header-right-content">
+                <div class="modal-body">
+                    <div class="sidebar-modal-widget">
+                        <h3 class="title">درباره ما</h3>
+                        <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
+                    </div>
+                    <div class="sidebar-modal-widget">
+                        <h3 class="title">پیوندهای اضافی</h3>
                         <ul>
                             <li>
-                                <a href="tel:021-12345678">
-                                    <i class='bx bxs-phone-call'></i>
-                                    <span>تماس با پشتیبانی</span> 021-12345678
+                                <a href="log-in.html">ورود</a>
+                            </li>
+                            <li>
+                                <a href="sign-up.html">ثبت نام</a>
+                            </li>
+                            <li>
+                                <a href="faq.html">سوالات متداول</a>
+                            </li>
+                            <li>
+                                <a href="#">خروج</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-modal-widget">
+                        <h3 class="title">اطلاعات تماس</h3>
+                        <ul class="contact-info">
+                            <li>
+                                <i class="bx bx-location-plus"></i> آدرس
+                                <span>ایران ، تهران ، میدان آزادی ، خیابان 9 شرقی</span>
+                            </li>
+                            <li>
+                                <i class="bx bx-envelope"></i> ایمیل
+                                <span>hello@prevoz.com</span>
+                            </li>
+                            <li>
+                                <i class="bx bxs-phone-call"></i> تلفن
+                                <span>021-87654321, 021-12345678</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-modal-widget">
+                        <h3 class="title">با ما در ارتباط باشید</h3>
+                        <ul class="social-list">
+                            <li>
+                                <a href="#">
+                                    <i class='bx bxl-twitter'></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="mailto:hello@prevoz.com">
-                                    <i class='bx bx-envelope'></i>
-                                    <span>پشتیبانی</span> hello@prevoz.com
+                                <a href="#">
+                                    <i class='bx bxl-facebook'></i>
                                 </a>
                             </li>
-                            <li class="pl-0">
-                                <ul class="flag-wrap">
-                                    <li class="flag-item-top">
-                                        <a href="#" class="flag-bar">
-                                            <img src="{% static 'img/flag/8-iran.png'%}" alt="Image">
-                                            <span>ایران</span>
-                                        </a>
-                                        <ul class="flag-item-bottom">
-                                            <li class="flag-item">
-                                                <a href="#" class="flag-link">
-                                                    <img src="{% static 'img/flag/2-united-kingdom.png'%}" alt="Image"> انگلستان
-                                                </a>
-                                            </li>
-
-                                            <li class="flag-item">
-                                                <a href="#" class="flag-link">
-                                                    <img src="{% static 'img/flag/3-germany.png'%}" alt="Image"> آلمان
-                                                </a>
-                                            </li>
-                                            <li class="flag-item">
-                                                <a href="#" class="flag-link">
-                                                    <img src="{% static 'img/flag/4-argentina.png'%}" alt="Image"> آرژانتین
-                                                </a>
-                                            </li>
-                                            <li class="flag-item">
-                                                <a href="#" class="flag-link">
-                                                    <img src="{% static 'img/flag/5-australia.png'%}" alt="Image"> استرالیا
-                                                </a>
-                                            </li>
-                                            <li class="flag-item">
-                                                <a href="#" class="flag-link">
-                                                    <img src="{% static 'img/flag/7-canada.png'%}" alt="Image"> کانادا
-                                                </a>
-                                            </li>
-                                            <li class="flag-item">
-                                                <a href="#" class="flag-link">
-                                                    <img src="{% static 'img/flag/6-new-zealand.png'%}" alt="Image"> نیوزلند
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
+                            <li>
+                                <a href="#">
+                                    <i class='bx bxl-instagram'></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class='bx bxl-linkedin'></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class='bx bxl-youtube'></i>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -76,194 +190,52 @@
             </div>
         </div>
     </div>
-    <!-- End Top Header Area -->
-    <div class="prevoz-nav-style">
-        <div class="navbar-area">
-            <!-- Menu For Mobile Device -->
-            <div class="mobile-nav">
-                <a href="index.html" class="logo">
-                    <img src="assets/img/logo/logo-one.png" alt="Logo">
-                </a>
-            </div>
-            <!-- Menu For Desktop Device -->
-            <div class="main-nav">
-                <nav class="navbar navbar-expand-md navbar-light">
+</div>
+<!-- End Sidebar Modal -->
+
+<!-- Start Search Box Modal -->
+<div class="search-wrap">
+    <div class="search">
+        <button type="button" class="close">×</button>
+        <form>
+            <input type="search" value="" class="form-control" placeholder="جستجو کنید ..." />
+            <button type="submit" class="default-btn">
+						جستجو
+					</button>
+        </form>
+    </div>
+</div>
+<!-- End Search Box Modal -->
+
+<!-- Start Prevoz Slider Area -->
+<section class="prevoz-slider-area prevoz-slider-area-five">
+    <div class="prevoz-slider-style owl-carousel owl-theme">
+        <div class="prevoz-slider-item slider-item-bg-15">
+            <div class="d-table">
+                <div class="d-table-cell">
                     <div class="container">
-                        <a class="navbar-brand" href="index.html">
-                            <img src="assets/img/logo/logo-one.png" alt="Logo">
-                        </a>
-                        <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link dropdown-toggle active">
-                                            صفحه اصلی
-                                            <i class='bx bx-chevron-up'></i>
-                                        </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="index.html" class="nav-link active">صفحه اصلی 1</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="index-2.html" class="nav-link">صفحه اصلی 2</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="index-3.html" class="nav-link">صفحه اصلی 3</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="index-4.html" class="nav-link">صفحه اصلی 4</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="index-5.html" class="nav-link">صفحه اصلی 5</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link dropdown-toggle">
-                                            صفحات
-                                            <i class='bx bx-chevron-up'></i>
-                                        </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="about.html" class="nav-link">درباره ما</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="why-us-choose.html" class="nav-link">درباره ما 2</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="team.html" class="nav-link">تیم</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="global-location.html" class="nav-link">موقعیت مکانی</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="faq.html" class="nav-link">سوالات متداول</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="coming-soon.html" class="nav-link">در دست ساخت</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="404.html" class="nav-link">خطای 404</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link dropdown-toggle">
-                                                    کاربر
-                                                    <i class='bx bx-chevron-up'></i>
-                                                </a>
-                                            <ul class="dropdown-menu">
-                                                <li class="nav-item">
-                                                    <a href="log-in.html" class="nav-link">ورود کاربر</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="sign-up.html" class="nav-link">ثبت نام کاربر</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="recover-password.html" class="nav-link">بازیابی رمز عبور</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="terms-conditions.html" class="nav-link">شرایط استفاده</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="privacy-policy.html" class="nav-link">خط مشی رازداری</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link dropdown-toggle">
-                                            شرکت
-                                            <i class='bx bx-chevron-up'></i>
-                                        </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="company-history.html" class="nav-link">تاریخچه شرکت</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="company-clients.html" class="nav-link">مشتری شرکت</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="careers.html" class="nav-link">مشاغل</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link dropdown-toggle">
-                                            خدمات
-                                            <i class='bx bx-chevron-up'></i>
-                                        </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="services.html" class="nav-link">خدمات</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="road-transport.html" class="nav-link">حمل و نقل جاده ای</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="air-transport.html" class="nav-link">حمل و نقل هوایی</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="service-details.html" class="nav-link">جزئیات خدمات</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link dropdown-toggle">
-                                            اخبار
-                                            <i class='bx bx-chevron-up'></i>
-                                        </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="news-grid.html" class="nav-link">اخبار شبکه ای</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="news-full-width.html" class="nav-link">اخبار تمام عرض</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="news-left-sidebar.html" class="nav-link">اخبار سایدبار</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="news-right-sidebar.html" class="nav-link">اخبار سایدبار 2</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="news-details.html" class="nav-link">جزئیات اخبار</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link dropdown-toggle">
-                                            امکانات
-                                            <i class='bx bx-chevron-up'></i>
-                                        </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="request-quote.html" class="nav-link">دریافت نقل قول</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="global-location.html" class="nav-link">موقعیت مکانی</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="contact.html" class="nav-link">تماس با ما</a>
-                                </li>
-                            </ul>
-                            <!-- Start Other Option -->
-                            <div class="others-option">
-                                <div class="search-wrap">
-                                    <a href=".search">
-                                        <i class='bx bx-search'></i>
-                                    </a>
-                                </div>
-                                <button type="button" class="sidebar-menu" data-toggle="modal" data-target="#myModal2">
-                                        <i class="flaticon-menu"></i>
-                                    </button>
-                            </div>
-                            <!-- End Other Option -->
+                        <div class="prevoz-slider-text three">
+
+                            <h1>خط بین اختلال و نظم در تدارکات نهفته است </h1>
+                            <p>اگر هزینه حمل و نقل را در فضا کم کنیم ، می توانیم کارهای بزرگی انجام دهیم.</p>
+
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <img class="img-fluid animated zoomIn" src="{% static 'img\slider/certificate.png'%}" alt="">
+                        </div>
+                        <div class="lines">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
                         </div>
                     </div>
-                </nav>
+                </div>
             </div>
         </div>
     </div>
-    <!-- End Prevoz Navbar Area -->
-</header>
+    <!-- <div class="shape">
+				<div class="shape-img">
+					<img src="{% static img/slider-shape.png" alt="Image">
+				</div>
+			</div> -->
+</section>

@@ -293,7 +293,7 @@ margin-left: 0;
 .default-btn::before {
     border-left: 0;
     border-top: 20px solid transparent;
-    border-right: 20px solid #fa4612;
+    border-right: 20px solid #4cf9fe;
     border-bottom: 20px solid transparent;
     right: -1px;
     left: auto;
@@ -382,7 +382,7 @@ margin-left: 0;
     left: auto;
 }
 .default-btn.active:hover::before {
-    border-right: 20px solid #fa4612;
+    border-right: 20px solid #4cf9fe;
     border-left: none;
     right: -1px;
     left: auto;
@@ -483,7 +483,7 @@ margin-left: 0;
     border-left: none;
 }
 .header-style-three .header-right-content .get-quote .default-btn.active:hover::before {
-    border-right: 10px solid #fa4612;
+    border-right: 10px solid #4cf9fe;
     border-left: none;
     right: -1px;
     left: auto;
@@ -743,7 +743,7 @@ right: 105%;
     border-left: none;
 }
 .sign-up-area .contact-form-action form .default-btn::before {
-    border-right: 10px solid #fa4612;
+    border-right: 10px solid #4cf9fe;
     border-left: none;
 }
 .sign-up-area .contact-form-action form .default-btn:hover::before {
