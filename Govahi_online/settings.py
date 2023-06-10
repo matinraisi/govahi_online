@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     # my app
     'home_page',
     'account',
+    'search'
 ]
 
 MIDDLEWARE = [

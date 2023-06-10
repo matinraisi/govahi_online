@@ -34,58 +34,30 @@
                             </li>
 
                             <li class="nav-item">
-                                <a href="#" class="nav-link dropdown-toggle">
+                                <a href="#" class="nav-link dropdown-toggle" s>
 												خدمات
 												<!-- <i class='bx bx-chevron-up'></i> -->
 											</a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a href="services.html" class="nav-link">خدمات</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="road-transport.html" class="nav-link">حمل و نقل جاده ای</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="air-transport.html" class="nav-link">حمل و نقل هوایی</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="service-details.html" class="nav-link">جزئیات خدمات</a>
-                                    </li>
-                                </ul>
+
                             </li>
                             <li class="nav-item">
                                 <a href="#" class="nav-link dropdown-toggle">
 												اخبار
 												<!-- <i class='bx bx-chevron-up'></i> -->
 											</a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a href="news-grid.html" class="nav-link">اخبار شبکه ای</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="news-full-width.html" class="nav-link">اخبار تمام عرض</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="news-left-sidebar.html" class="nav-link">اخبار سایدبار</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="news-right-sidebar.html" class="nav-link">اخبار سایدبار 2</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="news-details.html" class="nav-link">جزئیات اخبار</a>
-                                    </li>
-                                </ul>
+
+
                             </li>
                             <li class="nav-item">
-                                <a href="contact.html" class="nav-link">تماس با ما</a>
+                                <a href="#" class="nav-link">تماس با ما</a>
                             </li>
                         </ul>
                         <!-- Start Other Option -->
                         <div class="slider-btn">
-                            <a class="default-btn active" href="log-in.html">
+                            <a class="default-btn white" href="{% url 'login_page' %}">
 											ورود
 										</a>
-                            <a class="default-btn white" href="sign-up.html">
+                            <a class="default-btn white" href="{% url 'singup_page' %}">
 											ثبت نام
 										</a>
                         </div>
@@ -215,14 +187,26 @@
                 <div class="d-table-cell">
                     <div class="container">
                         <div class="prevoz-slider-text three">
+                            <!-- <div class=""></div> -->
 
-                            <h1>خط بین اختلال و نظم در تدارکات نهفته است </h1>
-                            <p>اگر هزینه حمل و نقل را در فضا کم کنیم ، می توانیم کارهای بزرگی انجام دهیم.</p>
 
+                            <!-- search in header -->
+                            <div class="col-lg-7" style="margin: auto;">
+                                <div class="tracking-body">
+                                    <button class="default-btn white" type="submit"><a href="{% url 'search:search' %}">دریافت گواهی</a></button>
+                                </div>
+                            </div>
+                            <!-- <div class="tracking-body">
+                                <form class="tracking-wrap" style="width: 550px; margin-right:270px;opacity: 70px;">
+                                    <input type="text" class="input-tracking" placeholder="کد ملی خود را وارد کنید" name="Tracking">
+                                    <button class="default-btn white" type="submit" style="margin-left:290px;" value="submit">جست و جو</button>
+                                </form>
+
+                            </div> -->
                         </div>
-                        <div class="col-lg-6 text-center text-lg-start">
+                        <!-- <div class="col-lg-6 text-center text-lg-start">
                             <img class="img-fluid animated zoomIn" src="{% static 'img\slider/certificate.png'%}" alt="">
-                        </div>
+                        </div> -->
                         <div class="lines">
                             <div class="line"></div>
                             <div class="line"></div>

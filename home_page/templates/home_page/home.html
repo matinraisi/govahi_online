@@ -1,5 +1,9 @@
 {% extends 'base.html'%} {% load static %} {% block content %}
 <!-- Start Counter Area -->
+
+
+
+<!-- ============== -->
 <section class="counter-area counter-area-five pb-70">
     <div class="container">
         <div class="row">
@@ -7,27 +11,27 @@
                 <div class="single-counter">
                     <i class="flaticon-box"></i>
                     <h2>
-                        <span class="traget">K</span> <span style="direction: ltr;" class="odometer" data-count="8845">00</span>
+                        <span class="traget"></span> <span style="direction: ltr;" class="odometer" data-count="145">00</span>
                     </h2>
-                    <p>بسته های تحویل</p>
+                    <p>بسته های آموزشی</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="single-counter">
                     <i class="flaticon-planet-earth"></i>
                     <h2>
-                        <span class="traget">M</span> <span style="direction: ltr;" class="odometer" data-count="1507">00</span>
+                        <span class="traget"></span> <span style="direction: ltr;" class="odometer" data-count="117">00</span>
                     </h2>
-                    <p>کشورهای تحت پوشش</p>
+                    <p>شهرهای تحت پوشش</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="single-counter">
                     <i class="flaticon-support"></i>
                     <h2>
-                        <span class="traget">K</span> <span style="direction: ltr;" class="odometer" data-count="1000">00</span>
+                        <span class="traget"></span> <span style="direction: ltr;" class="odometer" data-count="237">00</span>
                     </h2>
-                    <p>مشتری های راضی</p>
+                    <p>کاربران راضی</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
@@ -36,7 +40,7 @@
                     <h2>
                         <span class="traget">M</span> <span style="direction: ltr;" class="odometer" data-count="4586">00</span>
                     </h2>
-                    <p>تن کالا</p>
+                    <p>گواهی نامه های تحویل داده شده</p>
                 </div>
             </div>
         </div>
@@ -47,6 +51,28 @@
         <div class="line-two"></div>
     </div>
 </section>
+<div class="tracking-number-area tracking-number-area-five pb-70 pt-70">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <div class="col-lg-5">
+
+                <div class="tracking-content">
+                    <h2>گواهی خود را دریافت کنید</h2>
+                </div>
+
+            </div>
+
+            <div class="col-lg-7">
+                <div class="tracking-body">
+                    <button class="default-btn white" type="submit"><a href="{% url 'search:search' %}">جستو جو کنید</a></button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
 <!-- End Counter Area -->
 <section class="testimonials-three pt-100 pb-70">
     <div class="container">
@@ -58,11 +84,13 @@
             <div class="testimonials-wrap-three owl-carousel owl-theme">
                 <div class="testimonials-content-three">
                     <div class="testimonials-top-content">
-                        <img src="assets/img/testimonials/4.jpg" alt="Image">
-                        <h3>جان اسمیت</h3>
+                        <!-- <img src="assets/img/testimonials/4.jpg" alt="Image"> -->
+                        <h3>هانیه شریعتمداری</h3>
                         <span>ایران</span>
                     </div>
-                    <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
+                    <!-- <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p> -->
+                    <p>من برای صدور گواهی از این سایت استفاده کردم و به شدت از خدمات آن راضی هستم. سایت بسیار کارآمد و کاربرپسند است و به شما اجازه می‌دهد تا به راحتی و با سرعت گواهی‌های خود را طراحی و ارائه دهید. همچنین، خدمات پشتیبانی سایت نیز بسیار عالی
+                        و دوستانه هستند.</p>
                     <ul>
                         <li>
                             <i class='bx bxs-star'></i>
@@ -83,11 +111,14 @@
                 </div>
                 <div class="testimonials-content-three">
                     <div class="testimonials-top-content">
-                        <img src="assets/img/testimonials/5.jpg" alt="Image">
-                        <h3>جان اسمیت</h3>
+                        <!-- <img src="assets/img/testimonials/5.jpg" alt="Image"> -->
+                        <h3>منوره محتشمی</h3>
                         <span>ایران</span>
                     </div>
-                    <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
+                    <!-- <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p> -->
+                    <p>شدیداً به این سایت برای صدور گواهی به صورت آنلاین توصیه می‌کنم. سایت بسیار آسان و راحت برای استفاده است و به شما این امکان را می‌دهد تا با استفاده از قالب‌های آماده و یا با طراحی اختصاصی، گواهی‌های خود را به راحتی و با کیفیت بالا طراحی
+                        کنید.
+                    </p>
                     <ul>
                         <li>
                             <i class='bx bxs-star'></i>
@@ -108,11 +139,14 @@
                 </div>
                 <div class="testimonials-content-three">
                     <div class="testimonials-top-content">
-                        <img src="assets/img/testimonials/6.jpg" alt="Image">
-                        <h3>جان اسمیت</h3>
+                        <!-- <img src="assets/img/testimonials/6.jpg" alt="Image"> -->
+                        <h3>رضا پودینه</h3>
                         <span>ایران</span>
                     </div>
-                    <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
+                    <!-- <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p> -->
+                    <p>من از خدمات صدور گواهی به صورت آنلاین این سایت استفاده کردم و نتیجه بسیار خوبی دریافت کردم. سایت بسیار حرفه‌ای و با کیفیت است و به شما این امکان را می‌دهد تا با استفاده از قالب‌های مختلف، گواهی‌های خود را به راحتی و با سرعت بالا طراحی
+                        کنید.
+                    </p>
                     <ul>
                         <li>
                             <i class='bx bxs-star'></i>
@@ -143,134 +177,10 @@
 <!-- End Testimonials Area Three -->
 
 <!-- Start Tracking Number Area -->
-<div class="tracking-number-area tracking-number-area-five pb-70 pt-70">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-5">
-                <div class="tracking-content">
-                    <h2>محصول حمل و نقل خود را دنبال کنید</h2>
-                </div>
-            </div>
-            <div class="col-lg-7">
-                <div class="tracking-body">
-                    <form class="tracking-wrap">
-                        <input type="text" class="input-tracking" placeholder="شماره پیگیری خود را تایپ کنید" name="Tracking">
-                        <button class="default-btn active" type="submit" value="submit">پیگیری کن</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 <!-- End Tracking Number Area -->
 
 <!-- Start Blog Area -->
-<section class="blog-area blog-area-five pt-100 pb-70">
-    <div class="container">
-        <div class="section-title">
-            <span>اخبار و وبلاگ</span>
-            <h2>دریافت آخرین اخبار ما.</h2>
-            <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="single-blog">
-                    <a href="news-details.html">
-                        <img src="assets/img/blog/1.png" alt="Image">
-                    </a>
-                    <div class="blog-content">
-                        <ul>
-                            <li>
-                                <a href="#">توسط: جان اسمیت</a>
-                            </li>
-                            <li>تحویل</li>
-                            <li>30 دی 1398</li>
-                        </ul>
-                        <h3>
-                            <a href="news-details.html">
-                                صادرکنندگان در کل فروش می توانند پس انداز هزینه را بدست آورند
-                            </a>
-                        </h3>
-                        <a class="read-more" href="news-details.html">
-                            بیشتر بخوانید
-                            <i class='bx bx-left-arrow-alt'></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="single-blog">
-                    <a href="news-details.html">
-                        <img src="assets/img/blog/2.png" alt="Image">
-                    </a>
-                    <div class="blog-content">
-                        <ul>
-                            <li>
-                                <a href="#">توسط: جان اسمیت</a>
-                            </li>
-                            <li>تحویل</li>
-                            <li>30 دی 1398</li>
-                        </ul>
-                        <h3>
-                            <a href="news-details.html">
-                                صادرکنندگان در کل فروش می توانند پس انداز هزینه را بدست آورند
-                            </a>
-                        </h3>
-                        <a class="read-more" href="news-details.html">
-                            بیشتر بخوانید
-                            <i class='bx bx-left-arrow-alt'></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
-                <div class="single-blog">
-                    <div class="blog-content mb-13">
-                        <ul>
-                            <li>
-                                <a href="#">توسط: جان اسمیت</a>
-                            </li>
-                            <li>مهندسی</li>
-                            <li>30 دی 1398</li>
-                        </ul>
-                        <h3 class="mb-0">
-                            <a class="mb-0" href="news-details.html">
-                                صادرکنندگان در کل فروش می توانند پس انداز هزینه را بدست آورند
-                            </a>
-                        </h3>
-                    </div>
-                    <div class="blog-content mb-13">
-                        <ul>
-                            <li>
-                                <a href="#">توسط: جان اسمیت</a>
-                            </li>
-                            <li>مهندسی</li>
-                            <li>30 دی 1398</li>
-                        </ul>
-                        <h3 class="mb-0">
-                            <a class="mb-0" href="news-details.html">
-                                صادرکنندگان در کل فروش می توانند پس انداز هزینه را بدست آورند
-                            </a>
-                        </h3>
-                    </div>
-                    <div class="blog-content mb-13">
-                        <ul>
-                            <li>
-                                <a href="#">توسط: جان اسمیت</a>
-                            </li>
-                            <li>مهندسی</li>
-                            <li>30 دی 1398</li>
-                        </ul>
-                        <h3 class="mb-0">
-                            <a class="mb-0" href="news-details.html">
-                                صادرکنندگان در کل فروش می توانند پس انداز هزینه را بدست آورند
-                            </a>
-                        </h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 <!-- End Blog Area -->
 {% endblock content %}
